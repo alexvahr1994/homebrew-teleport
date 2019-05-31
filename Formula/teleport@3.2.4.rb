@@ -1,4 +1,4 @@
-class Teleport < Formula
+class TeleportAT324 < Formula
   desc "Modern SSH server for teams managing distributed infrastructure"
   homepage "https://gravitational.com/teleport"
   url "https://github.com/gravitational/teleport/archive/v3.2.4.tar.gz"
