@@ -4,8 +4,6 @@ class TeleportAT279 < Formula
   url "https://github.com/gravitational/teleport/archive/v2.7.9.tar.gz"
   sha256 "6b42c49a7b691f8846676c4edbfc61ce4a346504b8ef45d1e0c6ea9d78879683"
 
-  keg_only :versioned_formula
-
   depends_on "go" => :build
 
   def install
