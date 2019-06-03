@@ -6,7 +6,7 @@ class TeleportAT32 < Formula
 
   depends_on "go" => :build
 
-  keg_only :versioned_formula 
+  keg_only :versioned_formula
 
   conflicts_with "etsh", :because => "both install `tsh` binaries"
 

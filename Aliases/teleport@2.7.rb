@@ -1,1 +1,0 @@
-../Formula/teleport@2.7.rb
