@@ -1,9 +1,8 @@
-class TeleportAT324 < Formula
+class Teleport < Formula
   desc "Modern SSH server for teams managing distributed infrastructure"
   homepage "https://gravitational.com/teleport"
   url "https://github.com/gravitational/teleport/archive/v3.2.4.tar.gz"
   sha256 "5d4ef1bda04f2d1760a01dea270e11e5ebc2f678776f6614e3c3ab67f1c95e86"
-  head "https://github.com/gravitational/teleport.git"
 
   depends_on "go" => :build
 
